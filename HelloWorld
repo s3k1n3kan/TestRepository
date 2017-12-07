@@ -2,6 +2,11 @@
 
 int main(void)
 {
+	int i;
 	printf("Hello World\n");
+	for (i = 0; i < 5; i++) {
+		printf("%d...", 5-%d);
+		sleep(1);
+	}
 	return 0;
 }
